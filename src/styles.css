@@ -2,9 +2,10 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        text-decoration: none;
     }
     body {
-        background: #632fce;
+        background: hsl(0, 0%, 0%);
     }
     
     .links ul {
@@ -21,5 +22,5 @@
     }
     
     .links a:hover {
-        color: #1C1C28;
+        color: #503dbe;
     }
