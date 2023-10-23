@@ -7,19 +7,25 @@
 body {
     background: hsl(0, 0%, 0%);
 }
-.header {
+.navbar {
     display: flex;
-    justify-content: space-between;
     gap: 4rem;
     scroll-margin-top: 20rem;
+    justify-content: space-between;
+    
 }
 .titulo-h1 {
     color: aliceblue;
+    margin-left: 7rem;
+    margin-top: 2rem;
 }
-.links ul {
+.links {
     display: flex;
+    flex-direction: row;
+    margin-right: 40rem;
+    margin-top: 2rem;
     list-style: none;
-    align-items: center;
+    
 }
 
 .links a {
@@ -27,8 +33,6 @@ body {
     margin-right: 4.5rem;
     display: flex;
     transition: 0.3s;
-    
-    
 }
 
 .links a:hover {
