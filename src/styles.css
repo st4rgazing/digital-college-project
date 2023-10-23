@@ -7,7 +7,15 @@
     body {
         background: hsl(0, 0%, 0%);
     }
-    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+        scroll-margin-top: 20rem;
+    }
+    .titulo-h1 {
+        color: aliceblue;
+    }
     .links ul {
         display: flex;
         list-style: none;
@@ -17,8 +25,10 @@
     .links a {
         color: #ffffff;
         margin-right: 4.5rem;
-        display: inline-block;
+        display: flex;
         transition: 0.3s;
+        
+        
     }
     
     .links a:hover {
